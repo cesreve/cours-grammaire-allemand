@@ -140,31 +140,44 @@ with st.expander("4. Exercices"):
     else:
         filtered_practice_data = practice_data
 
+    if 'question_indices' not in st.session_state or st.session_state.get('selected_categories') != selected_categories:
+        st.session_state.question_indices = list(range(len(filtered_practice_data)))
+        random.shuffle(st.session_state.question_indices)
+        st.session_state.selected_categories = selected_categories
+        if 'answered' in st.session_state:
+            del st.session_state['answered']
+        if 'user_answer_input' in st.session_state:
+            st.session_state.user_answer_input = ""
 
+    def reset_session():
+        st.session_state.question_indices = list(range(len(filtered_practice_data)))
+        random.shuffle(st.session_state.question_indices)
+        if 'answered' in st.session_state:
+            del st.session_state['answered']
+        if 'user_answer_input' in st.session_state:
+            st.session_state.user_answer_input = ""
+        st.rerun()
+
+
+    if not st.session_state.question_indices:
+        st.success("🎉 Bravo ! Vous avez terminé tous les exercices pour cette sélection.")
+        if st.button("Recommencer"):
+            reset_session()
+        st.stop()
+    
     # Fonctions pour gérer l'état
     def next_question_callback():
-        st.session_state.next_question_flag = True
+        st.session_state.answered = False
+        st.session_state.user_answer_input = ""
+        st.session_state.question_indices.pop(0)
 
     def verify_answer_callback():
         st.session_state.answered = True
 
-    # Initialiser l'état de la session
-    if "exercise_perfekt" not in st.session_state or st.session_state.get("selected_categories") != selected_categories:
-        st.session_state.exercise_perfekt = random.choice(filtered_practice_data)
-        st.session_state.answered = False
-        st.session_state.user_answer_input = ""
-        st.session_state.next_question_flag = False
-        st.session_state.selected_categories = selected_categories
+    
+    current_question_index = st.session_state.question_indices[0]
+    exercise = filtered_practice_data[current_question_index]
 
-    # Gérer le passage à la question suivante
-    if st.session_state.get("next_question_flag", False):
-        st.session_state.exercise_perfekt = random.choice(filtered_practice_data)
-        st.session_state.answered = False
-        st.session_state.user_answer_input = ""
-        st.session_state.next_question_flag = False
-
-
-    exercise = st.session_state.exercise_perfekt
 
     # Afficher l'exercice
     st.markdown(f'<h3>{exercise["phrase"]}</h3>', unsafe_allow_html=True)
@@ -174,7 +187,7 @@ with st.expander("4. Exercices"):
 
     st.button("Vérifier", on_click=verify_answer_callback)
 
-    if st.session_state.answered:
+    if 'answered' in st.session_state and st.session_state.answered:
         if user_answer.lower() == exercise["reponse"].lower():
             st.balloons()
             st.success("Correct !")
