@@ -1,0 +1,27 @@
+[
+    {
+        "phrase": "Mein Auto ist ___ als deins. (schnell)",
+        "reponse": "schneller",
+        "traduction": "Ma voiture est plus rapide que la tienne."
+    },
+    {
+        "phrase": "Er ist der ___ Schüler in der Klasse. (gut)",
+        "reponse": "beste",
+        "traduction": "C'est le meilleur élève de la classe."
+    },
+    {
+        "phrase": "Sie ist ___ als ihre Schwester. (jung)",
+        "reponse": "jünger",
+        "traduction": "Elle est plus jeune que sa sœur."
+    },
+    {
+        "phrase": "Der Mount Everest ist der ___ Berg der Welt. (hoch)",
+        "reponse": "höchste",
+        "traduction": "Le Mont Everest est la plus haute montagne du monde."
+    },
+    {
+        "phrase": "Ich trinke ___ Kaffee als Tee. (gern)",
+        "reponse": "lieber",
+        "traduction": "Je préfère boire du café que du thé."
+    }
+]

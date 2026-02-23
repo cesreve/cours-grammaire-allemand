@@ -1,0 +1,27 @@
+[
+  {
+    "phrase": "Ich ___ dich später ___ (anrufen).",
+    "reponse": "rufe an",
+    "traduction": "Je t'appelle plus tard."
+  },
+  {
+    "phrase": "Der Zug ___ um 10 Uhr ___ (abfahren).",
+    "reponse": "fährt ab",
+    "traduction": "Le train part à 10 heures."
+  },
+  {
+    "phrase": "Sie ___ die Tür ___ (zumachen).",
+    "reponse": "macht zu",
+    "traduction": "Elle ferme la porte."
+  },
+  {
+    "phrase": "Wir ___ heute Abend ___ (ausgehen).",
+    "reponse": "gehen aus",
+    "traduction": "Nous sortons ce soir."
+  },
+  {
+    "phrase": "Du ___ deine Freunde ___ (einladen).",
+    "reponse": "lädst ein",
+    "traduction": "Tu invites tes amis."
+  }
+]
