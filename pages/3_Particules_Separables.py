@@ -13,25 +13,33 @@ with st.expander("Leçon"):
     st.markdown("""En allemand, de nombreux verbes sont formés avec une particule (un préfixe) qui peut se séparer du verbe principal. Cette particule modifie le sens du verbe.""")
 
     st.header("Qu'est-ce qu'un verbe à particule séparable ?")
-    st.markdown("""Un verbe à particule séparable est un verbe dont le préfixe se détache et se place à la fin de la phrase conjuguée au présent ou au prétérit.
-
-    *Exemple :* `anrufen` (appeler)
-    > Ich **rufe** dich **an**. (Je t'appelle.)
-    """)
+    st.markdown("""Un verbe à particule séparable est un verbe dont le préfixe se détache et se place à la fin de la phrase conjuguée au présent ou au prétérit.""")
+    st.markdown("Par exemple, avec le verbe `anrufen` (appeler) :")
+    st.code("Ich rufe dich an.", language="german")
+    st.markdown("*Traduction : Je t'appelle.*")
 
     st.header("Liste des particules séparables courantes")
     st.markdown("""Voici une liste de particules séparables courantes avec leur signification générale et des exemples.""")
     st.markdown("""
     | Particule | Signification | Exemple | Traduction |
     | --- | --- | --- | --- |
+    | **ab-** | séparation, départ | `abfahren` | partir (en véhicule) |
     | **an-** | contact, début d'une action | `anrufen` | appeler |
     | **auf-** | ouverture, mouvement vers le haut | `aufstehen` | se lever |
     | **aus-** | sortie, extension | `ausgehen` | sortir |
+    | **bei-** | contribution, assistance | `beitragen` | contribuer |
     | **ein-** | entrée, introduction | `einkaufen` | faire les courses |
+    | **los-** | séparation, début | `losgehen` | se mettre en route |
     | **mit-** | accompagnement | `mitkommen` | venir avec |
     | **nach-** | répétition, direction | `nachdenken` | réfléchir |
+    | **statt-** | avoir lieu | `stattfinden` | avoir lieu |
+    | **teil-** | participation | `teilnehmen` | participer |
+    | **um-** | changement, autour | `umziehen` | déménager |
     | **vor-** | avant, présentation | `vorstellen` | présenter, imaginer |
+    | **weg-** | éloignement | `weggehen` | s'en aller |
+    | **weiter-** | continuation | `weitergehen` | continuer |
     | **zu-** | fermeture, ajout | `zumachen` | fermer |
+    | **zurück-** | retour | `zurückkommen` | revenir |
     """)
 
     st.header("Particules de sens contraire")
