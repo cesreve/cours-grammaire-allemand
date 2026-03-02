@@ -1,0 +1,111 @@
+
+[
+    {
+        "adjectif": "Schwer",
+        "traduction": "Lourd / Difficile",
+        "contraire": "Leicht",
+        "contraire_traduction": "Léger / Facile"
+    },
+    {
+        "adjectif": "Heiß",
+        "traduction": "Chaud",
+        "contraire": "Kalt",
+        "contraire_traduction": "Froid"
+    },
+    {
+        "adjectif": "Schön",
+        "traduction": "Beau",
+        "contraire": "Hässlich",
+        "contraire_traduction": "Laid"
+    },
+    {
+        "adjectif": "Langsam",
+        "traduction": "Lent",
+        "contraire": "Schnell",
+        "contraire_traduction": "Rapide"
+    },
+    {
+        "adjectif": "Trocken",
+        "traduction": "Sec",
+        "contraire": "Nass",
+        "contraire_traduction": "Mouillé"
+    },
+    {
+        "adjectif": "Stark",
+        "traduction": "Fort",
+        "contraire": "Schwach",
+        "contraire_traduction": "Faible"
+    },
+    {
+        "adjectif": "Offen",
+        "traduction": "Ouvert",
+        "contraire": "Geschlossen",
+        "contraire_traduction": "Fermé"
+    },
+    {
+        "adjectif": "Weich",
+        "traduction": "Mou / Souple",
+        "contraire": "Hart",
+        "contraire_traduction": "Dur"
+    },
+    {
+        "adjectif": "Jung",
+        "traduction": "Jeune",
+        "contraire": "Alt",
+        "contraire_traduction": "Vieux"
+    },
+    {
+        "adjectif": "Sauber",
+        "traduction": "Propre",
+        "contraire": "Schmutzig",
+        "contraire_traduction": "Sale"
+    },
+    {
+        "adjectif": "Dick",
+        "traduction": "Gros",
+        "contraire": "Mager",
+        "contraire_traduction": "Maigre"
+    },
+    {
+        "adjectif": "Reich",
+        "traduction": "Riche",
+        "contraire": "Arm",
+        "contraire_traduction": "Pauvre"
+    },
+    {
+        "adjectif": "Gut",
+        "traduction": "Bon / Bien",
+        "contraire": "Schlecht",
+        "contraire_traduction": "Mauvais"
+    },
+    {
+        "adjectif": "Satt",
+        "traduction": "Rassasié",
+        "contraire": "Hungrig",
+        "contraire_traduction": "Affamé"
+    },
+    {
+        "adjectif": "Hoch",
+        "traduction": "Haut",
+        "contraire": "Niedrig",
+        "contraire_traduction": "Bas"
+    },
+    {
+        "adjectif": "Groß",
+        "traduction": "Grand",
+        "contraire": "Klein",
+        "contraire_traduction": "Petit"
+    },
+    {
+        "adjectif": "Fröhlich",
+        "traduction": "Joyeux",
+        "contraire": "Traurig",
+        "contraire_traduction": "Triste"
+    },
+    {
+        "adjectif": "Oben",
+        "traduction": "En haut",
+        "contraire": "Unten",
+        "contraire_traduction": "En bas"
+    }
+]
