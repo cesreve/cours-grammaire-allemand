@@ -18,6 +18,6 @@ def load_data():
 adjectifs_df = load_data()
 
 # Renommer les colonnes pour l"affichage
-adjectifs_df.columns = ["Adjectif (Allemand)", "Traduction française", "Contraire (Allemand)", "Traduction française"]
+adjectifs_df.columns = ["Adjectif (Allemand)", "Traduction française", "Contraire (Allemand)", "Traduction du contraire"]
 
 st.dataframe(adjectifs_df)

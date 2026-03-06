@@ -1,0 +1,107 @@
+[
+  {
+    "phrase": "Ich fahre ___ Berlin.",
+    "reponse": "nach",
+    "cas": "NACH",
+    "regle": "NACH est utilisé pour les villes et la plupart des pays sans article.",
+    "traduction": "Je vais à Berlin."
+  },
+  {
+    "phrase": "Wir gehen ___ Supermarkt.",
+    "reponse": "in den",
+    "cas": "IN",
+    "regle": "IN est utilisé pour entrer dans un lieu fermé. Supermarkt est masculin, donc 'in den' à l'accusatif.",
+    "traduction": "Nous allons au supermarché."
+  },
+  {
+    "phrase": "Er geht ___ Arzt.",
+    "reponse": "zum",
+    "cas": "ZU",
+    "regle": "ZU est utilisé pour aller chez une personne (médecin, ami). 'zu dem' se contracte en 'zum'.",
+    "traduction": "Il va chez le médecin."
+  },
+  {
+    "phrase": "Sie fliegt ___ die Türkei.",
+    "reponse": "in",
+    "cas": "IN",
+    "regle": "Pour les pays avec un article (comme 'die Türkei'), on utilise IN.",
+    "traduction": "Elle s'envole pour la Turquie."
+  },
+  {
+    "phrase": "Ich muss ___ Bahnhof.",
+    "reponse": "zum",
+    "cas": "ZU",
+    "regle": "ZU est souvent utilisé pour les bâtiments publics et les lieux avec une fonction spécifique.",
+    "traduction": "Je dois aller à la gare."
+  },
+  {
+    "phrase": "Meine Freundin fährt ___ Österreich.",
+    "reponse": "nach",
+    "cas": "NACH",
+    "regle": "NACH est utilisé pour les pays neutres sans article.",
+    "traduction": "Mon amie va en Autriche."
+  },
+  {
+    "phrase": "Am Wochenende gehen wir ___ Kino.",
+    "reponse": "ins",
+    "cas": "IN",
+    "regle": "IN est utilisé pour les lieux de divertissement. 'in das' se contracte en 'ins'.",
+    "traduction": "Le week-end, nous allons au cinéma."
+  },
+  {
+    "phrase": "Ich gehe ___ Bäcker, um Brot zu kaufen.",
+    "reponse": "zum",
+    "cas": "ZU",
+    "regle": "ZU est utilisé pour se rendre chez un commerçant. 'zu dem' se contracte en 'zum'.",
+    "traduction": "Je vais chez le boulanger pour acheter du pain."
+  },
+  {
+    "phrase": "Fahren Sie oft ___ die Niederlande?",
+    "reponse": "in",
+    "cas": "IN",
+    "regle": "Pour les pays au pluriel (comme 'die Niederlande'), on utilise IN.",
+    "traduction": "Allez-vous souvent aux Pays-Bas ?"
+  },
+  {
+    "phrase": "Morgen muss ich ___ Zahnarzt.",
+    "reponse": "zum",
+    "cas": "ZU",
+    "regle": "ZU est utilisé pour aller chez un professionnel de la santé. 'zu dem' se contracte en 'zum'.",
+    "traduction": "Demain, je dois aller chez le dentiste."
+  },
+  {
+    "phrase": "Nach der Arbeit fahre ich direkt ___ Hause.",
+    "reponse": "nach",
+    "cas": "NACH",
+    "regle": "L'expression 'nach Hause' signifie 'à la maison' (direction).",
+    "traduction": "Après le travail, je rentre directement à la maison."
+  },
+  {
+    "phrase": "Die Kinder gehen ___ die Schule.",
+    "reponse": "in",
+    "cas": "IN",
+    "regle": "IN est utilisé pour indiquer l'entrée dans un bâtiment. 'Schule' est féminin, donc 'in die'.",
+    "traduction": "Les enfants vont à l'école."
+  },
+  {
+    "phrase": "Wir treffen uns ___ Park.",
+    "reponse": "im",
+    "cas": "IN",
+    "regle": "IN est utilisé avec le datif pour indiquer une position. 'in dem' se contracte en 'im'. Ici, le sens est 'dans le parc'.",
+    "traduction": "Nous nous retrouvons dans le parc."
+  },
+  {
+    "phrase": "Bitte geh ___ Rezeption und frage nach dem Schlüssel.",
+    "reponse": "zur",
+    "cas": "ZU",
+    "regle": "ZU est utilisé pour se diriger vers un point de service. 'zu der' se contracte en 'zur'.",
+    "traduction": "S'il te plaît, va à la réception et demande la clé."
+  },
+  {
+    "phrase": "Der Zug fährt ___ Hamburg.",
+    "reponse": "nach",
+    "cas": "NACH",
+    "regle": "NACH est utilisé pour les noms de villes.",
+    "traduction": "Le train va à Hambourg."
+  }
+]
