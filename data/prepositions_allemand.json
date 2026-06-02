@@ -1,0 +1,86 @@
+[
+    {
+        "phrase": "Ich gehe ___ Park (der).",
+        "traduction": "Je marche à travers le parc.",
+        "reponse": "durch den",
+        "cas": "Accusatif",
+        "regle": "Durch exige l'Accusatif. Park est masculin, l'article 'der' devient 'den'."
+    },
+    {
+        "phrase": "Er kommt ___ Haus (das).",
+        "traduction": "Il vient (sort) de la maison.",
+        "reponse": "aus dem",
+        "cas": "Datif",
+        "regle": "Aus exige le Datif. Haus est neutre, l'article 'das' devient 'dem'."
+    },
+    {
+        "phrase": "Ich wohne ___ Eltern (die - pl.).",
+        "traduction": "J'habite chez mes parents.",
+        "reponse": "bei den",
+        "cas": "Datif",
+        "regle": "Bei exige le Datif. Au pluriel, 'die' devient 'den' (et on ajoute un -n à Eltern, déjà présent ici)."
+    },
+    {
+        "phrase": "___ Regen (der) bleiben wir hier.",
+        "traduction": "À cause de la pluie, nous restons ici.",
+        "reponse": "Wegen des",
+        "cas": "Génitif",
+        "regle": "Wegen exige le Génitif. Au masculin, 'der' devient 'des' (et le nom prend un -s : Regens)."
+    },
+    {
+        "phrase": "Das Buch liegt ___ Tisch (der).",
+        "traduction": "Le livre est posé sur la table (sans mouvement).",
+        "reponse": "auf dem",
+        "cas": "Mixtes (Wechsel)",
+        "regle": "Position fixe (Wo?) ➔ Datif. Tisch est masculin, l'article 'der' devient 'dem'."
+    },
+    {
+        "phrase": "Ich lege das Buch ___ Tisch (der).",
+        "traduction": "Je pose le livre sur la table (mouvement).",
+        "reponse": "auf den",
+        "cas": "Mixtes (Wechsel)",
+        "regle": "Changement de lieu (Wohin?) ➔ Accusatif. L'article masculin 'der' devient 'den'."
+    },
+    {
+        "phrase": "Das Geschenk ist ___ Mutter (die).",
+        "traduction": "Le cadeau est pour la mère.",
+        "reponse": "für die",
+        "cas": "Accusatif",
+        "regle": "Für exige l'Accusatif. Au féminin, l'article reste 'die'."
+    },
+    {
+        "phrase": "Wir fahren ___ Schweiz (die).",
+        "traduction": "Nous allons en Suisse (mouvement).",
+        "reponse": "in die",
+        "cas": "Mixtes (Wechsel)",
+        "regle": "Mouvement vers un pays avec article (Wohin?) ➔ Accusatif. Le féminin reste 'die'."
+    },
+    {
+        "phrase": "Er trinkt Kaffee ___ Zucker (der).",
+        "traduction": "Il boit du café sans sucre.",
+        "reponse": "ohne den",
+        "cas": "Accusatif",
+        "regle": "Ohne exige l'Accusatif. L'article masculin 'der' devient 'den'."
+    },
+    {
+        "phrase": "Nach der Arbeit gehe ich ___ Arzt (der).",
+        "traduction": "Après le travail, je vais chez le médecin.",
+        "reponse": "zu dem",
+        "cas": "Datif",
+        "regle": "Zu exige le Datif. Le masculin 'der' devient 'dem'. (Note : la contraction 'zum' est aussi correcte !)"
+    },
+    {
+        "phrase": "___ Woche (die) hat er viel gearbeitet.",
+        "traduction": "Pendant la semaine, il a beaucoup travaillé.",
+        "reponse": "Während der",
+        "cas": "Génitif",
+        "regle": "Während exige le Génitif. Au féminin, l'article 'die' devient 'der'."
+    },
+    {
+        "phrase": "Das Kind sitzt ___ Hund (der).",
+        "traduction": "L'enfant est assis à côté du chien.",
+        "reponse": "neben dem",
+        "cas": "Mixtes (Wechsel)",
+        "regle": "Position fixe (Wo?) ➔ Datif. L'article masculin 'der' devient 'dem'."
+    }
+]
